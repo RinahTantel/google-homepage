@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 0px 0px;
+    align-items:  center;
+}
+
+.container div{
+    margin: 5px;
+}
+
+.container .opa{
+    opacity: .35;
+    
+}
+
+.opa:hover{
+    opacity: .85;
+}
+
+.google-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+body, td, a, p{
+    font-family: Arial, sans-serif;
+}
+
+/* small font set to 13px */
+.sf{
+    font-size: 13px;
+}
