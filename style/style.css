@@ -1,4 +1,4 @@
-a{
+.container a{
     text-decoration: none;
     color: black;
 }
@@ -6,7 +6,7 @@ a{
 .container{
     display: flex;
     justify-content: flex-end;
-    margin: 10px 20px 0px 0px;
+    margin: 15px 20px 0px 0px;
     align-items:  center;
 }
 
@@ -38,4 +38,106 @@ body, td, a, p{
 /* small font set to 13px */
 .sf{
     font-size: 13px;
+}
+
+#logo{
+    padding: 109px 0px 20px 0px;
+    height: 92px;
+}
+
+.input-search{
+    margin-top: 10px;
+}
+
+input[type=search]{
+    width: 460px;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    background-image: url('../images/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 20px;
+}
+
+input[type=search]:focus{
+    outline: none;
+}
+
+.btn-sub{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;;
+}
+
+.input-submit{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 5px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-submit:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+
+
+#lng a{
+    padding: 0px 3px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+#lng a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    
+}
+
+.country{
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+}
+
+.ftft{
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    padding-left: 30px; 
+}
+
+footer a{
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.stt{
+    float: right;
+    padding-right: 30px;
 }
