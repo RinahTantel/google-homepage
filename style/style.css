@@ -27,6 +27,11 @@
     opacity: .85;
 }
 
+.opa img{
+    width: 25px;
+    height: 25px;
+}
+
 .google-container{
     display: flex;
     flex-direction: column;
@@ -56,7 +61,13 @@ body, td, a, p{
 #voice{
     position: relative;
     top: 7px;
-    right: 42px;
+    right: 50px;
+    
+}
+
+#voice img{
+    width: 25px;
+    height: 25px;
 }
 
 input[type=search]{
@@ -72,6 +83,7 @@ input[type=search]{
     background-repeat: no-repeat;
     padding-left: 40px;
     background-size: 20px;
+    padding-right: 50px;
 }
 
 input[type=search]:focus{
